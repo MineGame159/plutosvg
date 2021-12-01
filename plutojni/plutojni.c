@@ -1,4 +1,5 @@
 #include "plutojni.h"
+#include <stdint.h>
 #include <plutosvg.h>
 
 JNIEXPORT jlong JNICALL Java_meteordevelopment_pulsar_rendering_Svg_plutojni_1load_1from_1memory
