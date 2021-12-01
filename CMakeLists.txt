@@ -13,6 +13,7 @@ add_library(plutosvg STATIC ${PLUTOSVG_SOURCE})
 
 add_subdirectory(plutovg)
 add_subdirectory(example)
+add_subdirectory(plutojni)
 
 target_include_directories(plutosvg PUBLIC source)
 target_link_libraries(plutosvg PUBLIC plutovg)
